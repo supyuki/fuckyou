@@ -9,20 +9,20 @@ module.exports = {
 		role: 0,
 		shortDescription: 'AI CHAT',
 		longDescription: {
-			en: 'Chat with lina'
+			en: 'Chat with anya'
 		},
 		category: 'Ai chat',
 		guide: {
-			en: '   {pn} <word>: chat with lina'
+			en: '   {pn} <word>: chat with anya'
 				+ '\Example:{pn} hi'
 		}
 	},
 
 	langs: {
 		en: {
-			turnedOn: 'successful turned on auto chat lina!',
-			turnedOff: 'successful turned off auto chat lina!',
-			chatting: 'Already Chatting with lina...',
+			turnedOn: 'successful turned on auto chat anya!',
+			turnedOff: 'successful turned off auto chat anya!',
+			chatting: 'Already Chatting with anya...',
 			error: 'What?🙂'
 		}
 	},
