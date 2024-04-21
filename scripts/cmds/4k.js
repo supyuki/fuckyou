@@ -4,9 +4,9 @@ const tinyurl = require('tinyurl');
 module.exports = {
   config: {
     name: "4k",
-    aliases: ["4k", "upscale"],
+    aliases: ["remini", "upscale"],
     version: "1.0",
-    author: "JARiF",
+    author: "Lɘɘzʌ",
     countDown: 15,
     role: 0,
     longDescription: "Upscale your image.",
@@ -40,11 +40,11 @@ module.exports = {
       const url = await tinyurl.shorten(imageUrl);
       const k = await a.get(`https://www.api.vyturex.com/upscale?imageUrl=${url}`);
 
-      message.reply("✅ | Please wait...");
+      message.reply("(⁠๑⁠•⁠﹏⁠•⁠)> | Please wait...");
 
       const resultUrl = k.data.resultUrl;
 
-      message.reply({ body: "✅ | Image Upscaled.", attachment: await global.utils.getStreamFromURL(resultUrl) });
+      message.reply({ body: "(⁠~⁠‾⁠▿⁠‾⁠)⁠~ | Image Upscaled.", attachment: await global.utils.getStreamFromURL(resultUrl) });
     } catch (error) {
       message.reply("❌ | Error: " + error.message);
     }
